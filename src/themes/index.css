@@ -1,0 +1,12 @@
+/* ===== 主题样式统一入口 ===== */
+/* 按顺序导入各层样式 */
+
+/* Layer 1: Design Tokens - 设计令牌层 */
+@import './tokens/light.css';
+@import './tokens/dark.css';
+
+/* Layer 2: Variable Mapping - 变量映射层 */
+@import './mapping/element.css';
+
+/* Layer 3: Global Styles - 全局样式层 */
+@import './global.css';

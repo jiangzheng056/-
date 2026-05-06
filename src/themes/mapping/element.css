@@ -1,0 +1,103 @@
+/* ===== Layer 2: Variable Mapping - UI 框架适配层 ===== */
+/* 将 Element Plus 组件变量映射到业务 Token */
+
+/* Element Plus 颜色映射 */
+html.dark, html.light {
+  /* 主题色映射 */
+  --el-color-primary: var(--color-primary);
+  --el-color-primary-light-5: var(--color-primary-hover);
+  --el-color-primary-dark-2: var(--color-primary-active);
+
+  /* 功能色映射 */
+  --el-color-success: var(--color-success);
+  --el-color-warning: var(--color-warning);
+  --el-color-danger: var(--color-danger);
+  --el-color-info: var(--color-info);
+
+  /* 背景色映射 */
+  --el-bg-color: var(--bg-card);
+  --el-bg-color-page: var(--bg-page);
+  --el-bg-color-overlay: var(--bg-elevated);
+  --el-fill-color: var(--bg-hover);
+  --el-fill-color-light: var(--bg-hover);
+  --el-fill-color-blank: var(--bg-card);
+
+  /* 边框色映射 */
+  --el-border-color: var(--border-base);
+  --el-border-color-light: var(--border-light);
+  --el-border-color-dark: var(--border-dark);
+
+  /* 文本色映射 */
+  --el-text-color-primary: var(--text-primary);
+  --el-text-color-regular: var(--text-regular);
+  --el-text-color-secondary: var(--text-secondary);
+  --el-text-color-placeholder: var(--text-placeholder);
+  --el-text-color-disabled: var(--text-disabled);
+
+  /* 字体映射 */
+  --el-font-family: var(--font-family-base);
+  --el-font-size-base: var(--font-size-base);
+  --el-font-size-small: var(--font-size-sm);
+  --el-font-size-large: var(--font-size-lg);
+  --el-font-size-extra-large: var(--font-size-xl);
+
+  /* 圆角映射 */
+  --el-border-radius-base: var(--radius-base);
+  --el-border-radius-small: var(--radius-sm);
+  --el-border-radius-large: var(--radius-lg);
+  --el-border-radius-round: var(--radius-full);
+
+  /* 阴影映射 */
+  --el-box-shadow: var(--shadow-base);
+  --el-box-shadow-light: var(--shadow-sm);
+  --el-box-shadow-dark: var(--shadow-lg);
+
+  /* 间距映射 */
+  --el-component-size: calc(var(--spacing-md) + var(--spacing-sm));
+  --el-component-size-large: calc(var(--spacing-lg) + var(--spacing-md));
+  --el-component-size-small: calc(var(--spacing-base) + var(--spacing-xs));
+}
+
+/* Element Plus 特定组件变量映射 */
+html.dark, html.light {
+  /* 按钮 */
+  --el-button-font-weight: var(--font-weight-medium);
+  --el-button-border-radius: var(--radius-base);
+
+  /* 输入框 */
+  --el-input-bg-color: var(--bg-card);
+  --el-input-border-color: var(--border-base);
+  --el-input-hover-border-color: var(--border-dark);
+  --el-input-focus-border-color: var(--color-primary);
+  --el-input-font-size: var(--font-size-base);
+
+  /* 选择器 */
+  --el-select-bg-color: var(--bg-card);
+  --el-select-border-color: var(--border-base);
+
+  /* 表格 */
+  --el-table-bg-color: var(--bg-card);
+  --el-table-header-bg-color: var(--bg-hover);
+  --el-table-row-hover-bg-color: var(--bg-hover);
+  --el-table-border-color: var(--border-base);
+  --el-table-text-color: var(--text-regular);
+  --el-table-header-text-color: var(--text-secondary);
+
+  /* 对话框 */
+  --el-dialog-bg-color: var(--bg-card);
+  --el-dialog-border-radius: var(--radius-lg);
+
+  /* 下拉菜单 */
+  --el-dropdown-menu-bg-color: var(--bg-card);
+  --el-dropdown-menu-item-hover-bg-color: var(--bg-hover);
+
+  /* 分页 */
+  --el-pagination-bg-color: var(--bg-card);
+  --el-pagination-text-color: var(--text-regular);
+  --el-pagination-button-bg-color: var(--bg-card);
+  --el-pagination-hover-color: var(--color-primary);
+
+  /* 标签 */
+  --el-tag-bg-color: var(--bg-hover);
+  --el-tag-border-color: var(--border-base);
+}

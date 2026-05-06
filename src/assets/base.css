@@ -1,0 +1,34 @@
+/* 基础变量 - 深色主题 */
+:root {
+  --bg-primary: #0d0d14;
+  --bg-secondary: #151520;
+  --bg-card: #1a1a28;
+  --bg-hover: #1e1e2e;
+
+  --border-color: #252535;
+  --border-light: #2a2a3a;
+
+  --text-primary: #ffffff;
+  --text-secondary: #ffffff;
+  --text-muted: #909090;
+
+  --accent-blue: #409eff;
+  --accent-cyan: #36d1dc;
+  --accent-purple: #a855f7;
+  --accent-green: #22c55e;
+  --accent-orange: #f59e0b;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+}
